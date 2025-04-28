@@ -1,55 +1,53 @@
-🧾 Basic Expense Tracker
-A simple, responsive Expense Tracker web application built with HTML, CSS, and JavaScript.
-It allows users to record their expenses, see the total amount spent, and manage their expense history — all stored locally in the browser.
+# 📊 Expense Tracker
 
-📂 Project Structure
-bash
-Copy
-Edit
-├── index.html   # Main HTML structure
-├── style.css    # Styling for the app
-├── script.js    # Functionality and logic
-✨ Features
-Add new expenses with name and amount.
+A clean, minimal expense tracking app to manage your personal spending!  
+Built with ❤️ using HTML, CSS and Vanilla JavaScript.
 
-View a dynamic list of all recorded expenses.
+![Expense Tracker Banner](https://via.placeholder.com/1200x400.png?text=Expense+Tracker)
 
-See real-time updates to:
+---
 
-Total expenses
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-Number of expenses
+## 🚀 Demo
 
-Delete individual expenses.
+[Click here to try it out!](https://your-demo-link.com)  
+*(Or see the screenshots below!)*
 
-Data persistence using localStorage (your expenses stay saved even after refreshing).
+---
 
-🚀 Getting Started
-Clone the repository:
+## 📸 Screenshots
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repository-name.git
-Open the project directory:
+| Add Expense | View History |
+| :---: | :---: |
+| ![Add Expense](screenshots/add.png) | ![Expense History](screenshots/history.png) |
 
-bash
-Copy
-Edit
-cd your-repository-name
-Simply open index.html in your browser to use the application.
+---
 
-🖌️ Screenshots
-(You can add screenshots here if you want, like a before/after view of adding expenses.)
+## 🛠️ Built With
 
-📋 Technologies Used
-HTML5 – Structure of the webpage
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **LocalStorage**
 
-CSS3 – Styling and responsive design
+---
 
-JavaScript (Vanilla) – Application logic and DOM manipulation
+## 🔥 Features
 
-LocalStorage – For saving expenses locally
+✅ Add new expenses with name and amount  
+✅ Persistent data with LocalStorage  
+✅ Responsive and clean UI  
+✅ Delete individual expenses  
+✅ View total and number of expenses
 
-📜 License
-This project is open-source and free to use under the MIT License.
+---
+
+## 📦 Getting Started
+
+1. Clone this repository
+2. Open `index.html` in your browser
+
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
