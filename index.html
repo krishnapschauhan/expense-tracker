@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Expense Tracker</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        
+        <div class="balance-container">
+            <p class="balance-title">Your Total Expenses</p>
+            <p class="balance-amount" id="total-amount">₹0.00</p>
+        </div>
+        
+        <div class="expense-form">
+            <h2>Add New Expense</h2>
+            <form id="expense-form">
+                <div class="form-group">
+                    <label for="expense-name">Expense Name</label>
+                    <input type="text" id="expense-name" placeholder="What did you spend on?" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="expense-amount">Amount (₹)</label>
+                    <input type="number" id="expense-amount" placeholder="Enter amount" min="1" step="any" required>
+                </div>
+                
+                <button type="submit" id="add-expense-btn">Add Expense</button>
+            </form>
+        </div>
+        
+        <div class="expense-list" id="expense-list">
+            <h2>Expense History</h2>
+            <div id="expenses-container">
+                <p class="no-expenses" id="no-expenses">No expenses added yet.</p>
+            </div>
+        </div>
+        
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>Total Expenses: <span id="summary-total">₹0.00</span></p>
+            <p>Number of Expenses: <span id="summary-count">0</span></p>
+        </div>
+    </div>
+<script src="script.js"></script>      
+</body>
+</html>
